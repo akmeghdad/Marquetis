@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Vehicule Statistics{% endblock %}
+
+{% block body %}
+    {{ parent() }}
+
+    <h1>Statistics of Vehicules by Proprietaires</h1>
+    <div style="height: 300px;">
+        {{ render_chart(chart) }}
+    </div>
+{% endblock %}

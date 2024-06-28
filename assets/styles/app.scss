@@ -1,0 +1,59 @@
+@import '~bootstrap/scss/bootstrap';
+
+/* Custom styles */
+body {
+    background-color: skyblue;
+    padding-top: 56px;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.btn {
+    margin: 5px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+// Custom styles for proprietaire and vehicule forms
+.proprietaire-form, .vehicule-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.proprietaire-form h1, .vehicule-form h1 {
+    margin-bottom: 20px;
+}
+
+.proprietaire-form button, .vehicule-form button {
+    display: block;
+    width: 100%;
+}
+
+// Custom styles for delete buttons in tables
+.delete-btn {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.delete-btn:hover {
+    color: #fff;
+    background-color: #c82333;
+    border-color: #bd2130;
+}
